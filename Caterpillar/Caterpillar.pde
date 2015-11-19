@@ -1,5 +1,5 @@
 void setup() {
-  size(800, 800);
+  size(2000, 1000);
 }
 
 void draw() {
@@ -16,6 +16,7 @@ else
 }
 
    ellipse(mouseX, mouseY, 400, 400);
+   //ellipse(mouseX, mouseY, random(1000), random(1000));
    
    fill(0, 0, 0);
    ellipse(mouseX-100, mouseY-100, 50, 50);
